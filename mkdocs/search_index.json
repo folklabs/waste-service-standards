@@ -27,12 +27,12 @@
         }, 
         {
             "location": "/api/", 
-            "text": "Waste Services API\n\n\n/services\n\n\nget\n\nGet a list of waste services.\n\n\nResponse\n\n\n[\n  {\n    \ndescription\n: \nPlease put your recycling box on the street.\n,\n    \nesd_id\n: \nhttp://id.esd.org.uk/service/524\n,\n    \nfrequency\n: \nweekly\n,\n    \nid\n: 1,\n    \ncategories\n: [\n      \nhttp://registry.gov.uk/waste/services/paper_and_card\n\n    ],\n    \nname\n: \nRecycling service\n\n  }\n]", 
+            "text": "Waste Services API\n\n\n/services\n\n\nget\n\nGet a list of waste services.\n\n\nResponse\n\n\n[\n  {\n    \ndescription\n: \nPlease put your recycling box on the street.\n,\n    \nfrequency\n: \nweekly\n,\n    \nid\n: 1,\n    \nesd_id\n: \nhttp://id.esd.org.uk/service/524\n,\n    \nname\n: \nRecycling service\n\n  }\n]", 
             "title": "API"
         }, 
         {
             "location": "/api/#services", 
-            "text": "get \nGet a list of waste services.  Response  [\n  {\n     description :  Please put your recycling box on the street. ,\n     esd_id :  http://id.esd.org.uk/service/524 ,\n     frequency :  weekly ,\n     id : 1,\n     categories : [\n       http://registry.gov.uk/waste/services/paper_and_card \n    ],\n     name :  Recycling service \n  }\n]", 
+            "text": "get \nGet a list of waste services.  Response  [\n  {\n     description :  Please put your recycling box on the street. ,\n     frequency :  weekly ,\n     id : 1,\n     esd_id :  http://id.esd.org.uk/service/524 ,\n     name :  Recycling service \n  }\n]", 
             "title": "/services"
         }
     ]
