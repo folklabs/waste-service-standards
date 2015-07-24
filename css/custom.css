@@ -7,3 +7,12 @@
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
+
+.rest-method {
+  padding: 3px;
+  float: right;
+
+  background-color: #eee;
+  font-size: 20pt;
+  text-transform: uppercase;
+}

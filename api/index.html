@@ -57,8 +57,28 @@
             
             
             
-                <li >
-                    <a href="../codelists/">Codelists</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Models <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../models/event/">Event</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Taxonomies <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../taxonomies/missed-collections/">Missed collections</a>
+                        </li>
+                    
+                    </ul>
                 </li>
             
             
@@ -73,7 +93,7 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <a rel="next" href="../codelists/">
+                    <a rel="next" href="../taxonomies/missed-collections/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
@@ -92,7 +112,7 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#services">/services</a></li>
+        <li class="main active"><a href="#services">Services</a></li>
         
     
     </ul>
@@ -100,9 +120,11 @@
             <div class="col-md-9" role="main">
 
 <p>Waste Services API</p>
-<h2 id="services">/services</h2>
-<p><code>get</code>
-Get a list of waste services.</p>
+<h2 id="services">Services</h2>
+<p><code>/services</code></p>
+<hr />
+<p><span class="rest-method">get</span>
+Get a list of waste services</p>
 <p><strong>Response</strong></p>
 <pre><code>[
   {

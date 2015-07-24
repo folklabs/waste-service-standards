@@ -11,29 +11,44 @@
             "title": "Introduction"
         }, 
         {
-            "location": "/codelists/", 
-            "text": "Codelists\n\n\nThese codelists define standard terms that can be shared.\n\n\nMissed collection reasons\n\n\n\n\n\n  \nID\n\n  \nName\n\n  \nDescription\n\n\n\n\n\n\n  \n1\n\n  \nNot presented\n\n  \nThe containers is not presented at the curbside.\n\n\n\n\n\n\n  \n2\n\n  \nContaminated\n\n  \nThe contents of the container is contaminated with waste not suitable for that collection.\n\n\n\n\n\n\n  \n3\n\n  \nToo heavy\n\n  \nThe container contents is too heavy for safe collection.", 
-            "title": "Codelists"
+            "location": "/models/event/", 
+            "text": "Event\n\n\nUse cases and requirements\n\n\nThe Event model should have properties for:\n\n\nevent type\n\n\n\n\nWhat kind of event it is.\n\n\n\n\ndate created\n\n\n\n\n1 Jan 2015\n\n\n\n\nUPRN\n\n\n\n\nFor recording against specific properties.\n\n\n\n\nUSRN\n\n\n\n\nFor recording street-level information.\n\n\n\n\ncoordinates\n\n\n\n\nFor easy geolocation of where the event was recorded.\n\n\n\n\nimage\n\n\n\n\nVisual evidence of an issue.\n\n\n\n\ncomments\n\n\n\n\nFor any additional information useful to record.\n\n\n\n\nProperties\n\n\n\n\n\n\n\n\nTerm\n\n\nMapping\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nevent type\n\n\nstring\n\n\nA categorisation of the event.\n\n\n\n\n\n\ndate created\n\n\nstring\n\n\nTimestamp.\n\n\n\n\n\n\nuprn\n\n\nstring\n\n\nA unique identifier for a property.\n\n\n\n\n\n\nusrn\n\n\nstring\n\n\nA unique identifier for a street.\n\n\n\n\n\n\ngeo\n\n\nGeoCoordinates\n\n\nThe location in WGS84 datum.\n\n\n\n\n\n\nimage\n\n\nURL\n\n\nA URL to an related image.", 
+            "title": "Event"
         }, 
         {
-            "location": "/codelists/#codelists", 
-            "text": "These codelists define standard terms that can be shared.", 
-            "title": "Codelists"
+            "location": "/models/event/#event", 
+            "text": "", 
+            "title": "Event"
         }, 
         {
-            "location": "/codelists/#missed-collection-reasons", 
-            "text": "ID \n   Name \n   Description   \n   1 \n   Not presented \n   The containers is not presented at the curbside.   \n   2 \n   Contaminated \n   The contents of the container is contaminated with waste not suitable for that collection.   \n   3 \n   Too heavy \n   The container contents is too heavy for safe collection.", 
+            "location": "/models/event/#use-cases-and-requirements", 
+            "text": "The Event model should have properties for:  event type   What kind of event it is.   date created   1 Jan 2015   UPRN   For recording against specific properties.   USRN   For recording street-level information.   coordinates   For easy geolocation of where the event was recorded.   image   Visual evidence of an issue.   comments   For any additional information useful to record.", 
+            "title": "Use cases and requirements"
+        }, 
+        {
+            "location": "/models/event/#properties", 
+            "text": "Term  Mapping  Description      event type  string  A categorisation of the event.    date created  string  Timestamp.    uprn  string  A unique identifier for a property.    usrn  string  A unique identifier for a street.    geo  GeoCoordinates  The location in WGS84 datum.    image  URL  A URL to an related image.", 
+            "title": "Properties"
+        }, 
+        {
+            "location": "/taxonomies/missed-collections/", 
+            "text": "Missed collection reasons\n\n\n\n\n\n  \nID\n\n  \nName\n\n  \nDescription\n\n\n\n\n\n\n  \n1\n\n  \nNot presented\n\n  \nThe container is not presented at the curbside.\n\n\n\n\n\n\n  \n2\n\n  \nContaminated\n\n  \nThe contents of the container is contaminated with waste not suitable for that collection.\n\n\n\n\n\n\n  \n3\n\n  \nToo heavy\n\n  \nThe container contents is too heavy for safe collection.", 
+            "title": "Missed collections"
+        }, 
+        {
+            "location": "/taxonomies/missed-collections/#missed-collection-reasons", 
+            "text": "ID \n   Name \n   Description   \n   1 \n   Not presented \n   The container is not presented at the curbside.   \n   2 \n   Contaminated \n   The contents of the container is contaminated with waste not suitable for that collection.   \n   3 \n   Too heavy \n   The container contents is too heavy for safe collection.", 
             "title": "Missed collection reasons"
         }, 
         {
             "location": "/api/", 
-            "text": "Waste Services API\n\n\n/services\n\n\nget\n\nGet a list of waste services.\n\n\nResponse\n\n\n[\n  {\n    \ndescription\n: \nPlease put your recycling box on the street.\n,\n    \nfrequency\n: \nweekly\n,\n    \nid\n: 1,\n    \nesd_id\n: \nhttp://id.esd.org.uk/service/524\n,\n    \nname\n: \nRecycling service\n\n  }\n]", 
+            "text": "Waste Services API\n\n\nServices\n\n\n/services\n\n\n\n\nget\n\nGet a list of waste services\n\n\nResponse\n\n\n[\n  {\n    \ndescription\n: \nPlease put your recycling box on the street.\n,\n    \nfrequency\n: \nweekly\n,\n    \nid\n: 1,\n    \nesd_id\n: \nhttp://id.esd.org.uk/service/524\n,\n    \nname\n: \nRecycling service\n\n  }\n]", 
             "title": "API"
         }, 
         {
             "location": "/api/#services", 
-            "text": "get \nGet a list of waste services.  Response  [\n  {\n     description :  Please put your recycling box on the street. ,\n     frequency :  weekly ,\n     id : 1,\n     esd_id :  http://id.esd.org.uk/service/524 ,\n     name :  Recycling service \n  }\n]", 
-            "title": "/services"
+            "text": "/services   get \nGet a list of waste services  Response  [\n  {\n     description :  Please put your recycling box on the street. ,\n     frequency :  weekly ,\n     id : 1,\n     esd_id :  http://id.esd.org.uk/service/524 ,\n     name :  Recycling service \n  }\n]", 
+            "title": "Services"
         }
     ]
 }
